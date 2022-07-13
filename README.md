@@ -1,7 +1,7 @@
 # AnotherCalc
 
 ## Description:
-SimpleCalc is a basic calculator that also comes with a tip calculator. For an example of how to implement, check out LCARS_calc at https://github.com/AndrewLewis83/LCARS_calc
+AnotherCalc is a basic calculator that also comes with a tip calculator. For an example of how to implement, check out LCARS_calc at https://github.com/AndrewLewis83/LCARS_calc
 
 ## Using in project UIViewController:
 
@@ -17,7 +17,7 @@ var calculator: AnotherCalc!
 override func viewDidLoad() {
     super.viewDidLoad()
     
-    calculator = SimpleCalc(recordHistory: false)
+    calculator = AnotherCalc(recordHistory: false)
 }
 ```
 
@@ -39,7 +39,7 @@ calculator.addDecimal()
 calculator.addNewDigit(digit: 23)
 ```
 
-The SimpleCalc object also handles the following calls:
+The AnotherCalc object also handles the following calls:
 - plus() -> Bool
 - minus() -> Bool
 - divide() -> Bool
@@ -55,10 +55,10 @@ All of these methods return a bool, true or false depending on the situation. A 
 
 ## History
 
-If you wish to implement a history feed, pass 'true' to the SimpleCalc initializer.
+If you wish to implement a history feed, pass 'true' to the AnotherCalc initializer.
 
 ```swift
- calculator = SimpleCalc(recordHistory: true)
+ calculator = AnotherCalc(recordHistory: true)
 ```
 
 Then, you can access the following methods:
