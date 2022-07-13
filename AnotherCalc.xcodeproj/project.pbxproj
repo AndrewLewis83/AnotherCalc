@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		F497B0E6287EFA4A00CCB068 /* AnotherCalc.docc in Sources */ = {isa = PBXBuildFile; fileRef = F497B0E5287EFA4A00CCB068 /* AnotherCalc.docc */; };
 		F497B0EC287EFA4B00CCB068 /* AnotherCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F497B0E1287EFA4A00CCB068 /* AnotherCalc.framework */; };
-		F497B0F1287EFA4B00CCB068 /* AnotherCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497B0F0287EFA4B00CCB068 /* AnotherCalcTests.swift */; };
 		F497B0F2287EFA4B00CCB068 /* AnotherCalc.h in Headers */ = {isa = PBXBuildFile; fileRef = F497B0E4287EFA4A00CCB068 /* AnotherCalc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F497B0FD287EFA7000CCB068 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497B0FB287EFA7000CCB068 /* String.swift */; };
+		F497B0FE287EFA7000CCB068 /* AnotherCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497B0FC287EFA7000CCB068 /* AnotherCalc.swift */; };
+		F497B100287EFA8600CCB068 /* AnotherCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497B0FF287EFA8600CCB068 /* AnotherCalcTests.swift */; };
+		F497B102287EFB4100CCB068 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F497B101287EFB4100CCB068 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,10 @@
 		F497B0E4287EFA4A00CCB068 /* AnotherCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherCalc.h; sourceTree = "<group>"; };
 		F497B0E5287EFA4A00CCB068 /* AnotherCalc.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AnotherCalc.docc; sourceTree = "<group>"; };
 		F497B0EB287EFA4B00CCB068 /* AnotherCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnotherCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F497B0F0287EFA4B00CCB068 /* AnotherCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherCalcTests.swift; sourceTree = "<group>"; };
+		F497B0FB287EFA7000CCB068 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F497B0FC287EFA7000CCB068 /* AnotherCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherCalc.swift; sourceTree = "<group>"; };
+		F497B0FF287EFA8600CCB068 /* AnotherCalcTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherCalcTests.swift; sourceTree = "<group>"; };
+		F497B101287EFB4100CCB068 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 		F497B0E3287EFA4A00CCB068 /* AnotherCalc */ = {
 			isa = PBXGroup;
 			children = (
+				F497B101287EFB4100CCB068 /* README.md */,
+				F497B0FC287EFA7000CCB068 /* AnotherCalc.swift */,
+				F497B0FB287EFA7000CCB068 /* String.swift */,
 				F497B0E4287EFA4A00CCB068 /* AnotherCalc.h */,
 				F497B0E5287EFA4A00CCB068 /* AnotherCalc.docc */,
 			);
@@ -80,7 +89,7 @@
 		F497B0EF287EFA4B00CCB068 /* AnotherCalcTests */ = {
 			isa = PBXGroup;
 			children = (
-				F497B0F0287EFA4B00CCB068 /* AnotherCalcTests.swift */,
+				F497B0FF287EFA8600CCB068 /* AnotherCalcTests.swift */,
 			);
 			path = AnotherCalcTests;
 			sourceTree = "<group>";
@@ -150,6 +159,7 @@
 					};
 					F497B0EA287EFA4B00CCB068 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -177,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F497B102287EFB4100CCB068 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F497B0FD287EFA7000CCB068 /* String.swift in Sources */,
+				F497B0FE287EFA7000CCB068 /* AnotherCalc.swift in Sources */,
 				F497B0E6287EFA4A00CCB068 /* AnotherCalc.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F497B0F1287EFA4B00CCB068 /* AnotherCalcTests.swift in Sources */,
+				F497B100287EFA8600CCB068 /* AnotherCalcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +363,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +392,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,14 +411,22 @@
 		F497B0F9287EFA4B00CCB068 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9PHXE6VS94;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ajlewis.AnotherCalcTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,10 +435,17 @@
 		F497B0FA287EFA4B00CCB068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9PHXE6VS94;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ajlewis.AnotherCalcTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
