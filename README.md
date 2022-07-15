@@ -3,6 +3,15 @@
 ## Description:
 AnotherCalc is a basic calculator that also comes with a tip calculator. For an example of how to implement, check out LCARS_calc at https://github.com/AndrewLewis83/LCARS_calc
 
+## Installation
+
+*Note: You will need CocoaPods installed before you can complete the following instructions. Please visit https://guides.cocoapods.org/using/getting-started.html if you haven't done this yet. Also, for instructions for installing a CocoaPod in your project, go to: https://guides.cocoapods.org/using/using-cocoapods.html**
+
+To add AnotherCalc to your project, add the following line to your Podfile:
+pod 'AnotherCalc'
+
+Then, save the changes to the Podfile and from within the project directory, in the Terminal, run: pod install.
+
 ## Using in project UIViewController:
 
 ```swift
