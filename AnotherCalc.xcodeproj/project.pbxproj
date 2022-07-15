@@ -10,7 +10,6 @@
 		F497B0E6287EFA4A00CCB068 /* AnotherCalc.docc in Sources */ = {isa = PBXBuildFile; fileRef = F497B0E5287EFA4A00CCB068 /* AnotherCalc.docc */; };
 		F497B0EC287EFA4B00CCB068 /* AnotherCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F497B0E1287EFA4A00CCB068 /* AnotherCalc.framework */; };
 		F497B0F2287EFA4B00CCB068 /* AnotherCalc.h in Headers */ = {isa = PBXBuildFile; fileRef = F497B0E4287EFA4A00CCB068 /* AnotherCalc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F497B0FD287EFA7000CCB068 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497B0FB287EFA7000CCB068 /* String.swift */; };
 		F497B0FE287EFA7000CCB068 /* AnotherCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497B0FC287EFA7000CCB068 /* AnotherCalc.swift */; };
 		F497B100287EFA8600CCB068 /* AnotherCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F497B0FF287EFA8600CCB068 /* AnotherCalcTests.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,6 @@
 		F497B0E4287EFA4A00CCB068 /* AnotherCalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherCalc.h; sourceTree = "<group>"; };
 		F497B0E5287EFA4A00CCB068 /* AnotherCalc.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AnotherCalc.docc; sourceTree = "<group>"; };
 		F497B0EB287EFA4B00CCB068 /* AnotherCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnotherCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F497B0FB287EFA7000CCB068 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		F497B0FC287EFA7000CCB068 /* AnotherCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherCalc.swift; sourceTree = "<group>"; };
 		F497B0FF287EFA8600CCB068 /* AnotherCalcTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherCalcTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				F497B0FC287EFA7000CCB068 /* AnotherCalc.swift */,
-				F497B0FB287EFA7000CCB068 /* String.swift */,
 				F497B0E4287EFA4A00CCB068 /* AnotherCalc.h */,
 				F497B0E5287EFA4A00CCB068 /* AnotherCalc.docc */,
 			);
@@ -201,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F497B0FD287EFA7000CCB068 /* String.swift in Sources */,
 				F497B0FE287EFA7000CCB068 /* AnotherCalc.swift in Sources */,
 				F497B0E6287EFA4A00CCB068 /* AnotherCalc.docc in Sources */,
 			);

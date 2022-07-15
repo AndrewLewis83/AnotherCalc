@@ -61,7 +61,7 @@ public class AnotherCalc {
         }
         
         set(value) {
-            if value.isNumber {
+            if let _ = Double(value) {
                 primaryReadoutValue = value
             }
         }
